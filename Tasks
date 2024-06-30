@@ -1,0 +1,12 @@
+
+
+
+-- Табуляция и работа с текстом
+https://github.com/markedjs/marked
+
+-- Нужен только хейдер для редактирования текста
+https://github.com/RIP21/react-simplemde-editor?tab=readme-ov-file
+https://github.com/RIP21/react-simplemde-editor?tab=readme-ov-file#new-in-v5
+
+-- Пригодится для сохранение данных написанного в за метки
+https://dexie.org/docs/Tutorial/React

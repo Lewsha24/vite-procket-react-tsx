@@ -1,9 +1,14 @@
 import './App.css'
 import {Main} from './pages/Main'
+import {Header} from "./layout/Header";
+import { MyProvider } from './context/context';
 
 function App() {
   return (
-   <Main />
+      <MyProvider>
+        <Header/>
+        <Main />
+      </MyProvider>
   )
 }
 

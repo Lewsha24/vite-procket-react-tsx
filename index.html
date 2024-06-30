@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/easymde/dist/easymde.min.css">
     <title>Vite + React + TS</title>
   </head>
   <body>
     <div id="root"></div>
+
+
+
+    <script src="https://unpkg.com/easymde/dist/easymde.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- <script>
+      document.getElementById('content').innerHTML =
+              marked.parse('# Marked in the browser\n\nRendered by **marked**.');
+    </script> -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

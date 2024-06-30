@@ -1,0 +1,7 @@
+
+.navBar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
